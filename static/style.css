@@ -1,0 +1,62 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+.btn {
+    size: lg;
+    display: inline-block;
+    background: hsl(315, 78%, 60%);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0.25rem;;
+    border-color: transparent;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    letter-spacing: 0.1rem;
+    margin-top: auto;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+  }
+
+  .btn:hover {
+    background: hsl(74, 52%, 45%);
+    color: hsl(0, 0%, 100%);
+  }
+
+  h1{
+      margin-bottom: 5rem;
+      text-transform: capitalize;
+      color: hsl(173, 65%, 40%);
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 40px;
+  }
+
+  body{
+    background-image: url(https://media.istockphoto.com/vectors/kawaii-camomile-mascot-vector-id1220636142?k=20&m=1220636142&s=612x612&w=0&h=pE2RMsJOtlXe8ekQnq7q-vITYMzVdLl9Ki_qoRVA1x0=);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    
+  }
+
+  
+
+  
